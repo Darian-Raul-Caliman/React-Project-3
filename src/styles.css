@@ -1,0 +1,53 @@
+.App {
+  background-color: #ffffff;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.step-control,
+.day-control {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+.message {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.date-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 0.5rem;
+}
