@@ -15,6 +15,7 @@ Navigate forward or backward in time using the step value.
 Displays the resulting date and how far it is from today.
 
 🧠 How It Works
+
 step controls how many days are added or subtracted at once.
 
 day represents the total number of days shifted from today.
