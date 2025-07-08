@@ -5,9 +5,11 @@
 Created with CodeSandbox
 
 📅 Date Stepper App
+
 A simple React app that allows users to increment or decrement a day counter and step value, showing a future or past date accordingly.
 
 🚀 Features
+
 Increase or decrease the step size by which days are added or subtracted.
 
 Navigate forward or backward in time using the step value.
